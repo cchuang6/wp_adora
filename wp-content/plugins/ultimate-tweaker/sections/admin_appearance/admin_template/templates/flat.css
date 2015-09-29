@@ -1,0 +1,64 @@
+html a,
+html .button,
+html .button-primary {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+html .postbox {
+  box-shadow: none;
+}
+html input,
+html select,
+html textarea {
+  box-shadow: none !important;
+}
+html .notice,
+html .updated {
+  box-shadow: none !important;
+}
+html .theme-browser .theme {
+  box-shadow: none !important;
+}
+html #screen-meta,
+html #contextual-help-link-wrap,
+html #screen-options-link-wrap {
+  box-shadow: none !important;
+}
+html .plugin-install #the-list td,
+html .plugins .active td,
+html .plugins .active th,
+html .plugins .inactive td,
+html .plugins .inactive th,
+html .upgrade .plugins td,
+html .upgrade .plugins th {
+  box-shadow: none !important;
+}
+html #menu-management .menu-edit,
+html #menu-settings-column .accordion-container,
+html .feature-filter,
+html .imgedit-group,
+html .manage-menus,
+html .menu-item-handle,
+html .popular-tags,
+html .stuffbox,
+html .widget-inside,
+html .widget-top,
+html .widgets-holder-wrap,
+html .wp-editor-container,
+html p.popular-tags,
+html table.widefat {
+  box-shadow: none !important;
+}
+html #adminmenu .wp-submenu,
+html .folded #adminmenu .wp-has-current-submenu .wp-submenu,
+html .folded #adminmenu a.wp-has-current-submenu:focus+.wp-submenu {
+  box-shadow: none !important;
+}
+html #wpadminbar .menupop .ab-sub-wrapper,
+html #wpadminbar .shortlink-input {
+  box-shadow: none !important;
+}
+html #activity-widget #the-comment-list .comment,
+html #activity-widget #the-comment-list .pingback {
+  box-shadow: none !important;
+}

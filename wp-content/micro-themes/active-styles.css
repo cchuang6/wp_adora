@@ -1,0 +1,112 @@
+/*** Microthemer Styles ***/
+
+/* =Header
+-------------------------------------------------------------- */
+/* Sticky Header */
+.sticky-header.fw-header.clearfix {
+	opacity: .9 !important;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)" !important;
+        filter: alpha(opacity=90) !important;
+        -moz-opacity:.9 !important;
+        -khtml-opacity: .9 !important;
+}
+/* Scrolled Logo */
+#logo.scrolled {
+	background-repeat: no-repeat !important;
+	position: absolute !important;
+}
+/* Scrolled Clearfix */
+.col-sm-4.logo-left.has-img.clearfix.scrolled {
+	z-index: 100 !important;
+}
+
+/* =Continue
+-------------------------------------------------------------- */
+/* Swift Continue */
+.swift-slider .swift-slider-continue {
+	color: rgb(255, 255, 255) !important;
+	font-size: 61px !important;
+	line-height: 62px !important;
+	font-weight: 700 !important;
+	background-color: rgba(0, 0, 0, 0) !important;
+	margin-top: 10px !important;
+	border-top-color: rgba(34, 34, 34, 0) !important;
+	border-right-color: rgba(34, 34, 34, 0) !important;
+	border-bottom-color: rgba(0, 0, 0, 0) !important;
+	border-left-color: rgba(0, 0, 0, 0) !important;
+	border-top-width: 0px !important;
+	border-right-width: 0px !important;
+	border-bottom-width: 0px !important;
+	border-left-width: 0px !important;
+	-webkit-border-radius: 0 0 0 0 !important;
+	-moz-border-radius: 0 0 0 0 !important;
+	border-radius: 0 0 0 0 !important;
+	opacity: .8 !important;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)" !important;
+        filter: alpha(opacity=80) !important;
+        -moz-opacity:.8 !important;
+        -khtml-opacity: .8 !important;
+}
+/* Swift Continue Dark */
+.swift-slider .swift-slider-continue.dark i {
+	color: rgb(255, 255, 255) !important;
+}
+/* Swift Continue I */
+.swift-slider .swift-slider-continue i {
+	font-size: 61px !important;
+}
+/* Swift Continue Opacity */
+.swift-slider .swift-slider-continue:hover {
+	color: rgb(255, 255, 255) !important;
+	background-color: rgba(0, 0, 0, 0) !important;
+	opacity: .8 !important;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)" !important;
+        filter: alpha(opacity=80) !important;
+        -moz-opacity:.8 !important;
+        -khtml-opacity: .8 !important;
+}
+/* Navigate */
+.ss-navigatedown {
+	position: relative !important;
+	top: 61px !important;
+	right: 16px !important;
+}
+
+/* =Home
+-------------------------------------------------------------- */
+/* Sign-Up Button */
+input[type=submit] {
+	color: rgb(254, 254, 254) !important;
+	font-size: 16PX !important;
+	background-color: rgb(78, 100, 112) !important;
+	width: 142PX !important;
+	height: 61PX !important;
+	border-top-color: rgb(228, 228, 228) !important;
+	-webkit-border-radius: 5px 5px 5px 5px !important;
+	-moz-border-radius: 5px 5px 5px 5px !important;
+	border-radius: 5px 5px 5px 5px !important;
+}
+
+/* =Promo Bar
+-------------------------------------------------------------- */
+/* Outer Box */
+.sf-promo-bar {
+	padding-top: 0px !important;
+	padding-right: 0px !important;
+	padding-bottom: 0px !important;
+	padding-left: 0px !important;
+}
+
+
+
+
+/* Tablet & Phone
+************************************************************************/
+@media (max-width: 767px) {
+
+	/* =Home
+	-------------------------------------------------------------- */
+	/* Sign-Up Button */
+	input[type=submit] {
+	}
+}

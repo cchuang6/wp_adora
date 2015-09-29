@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){e(".meta-box-sortables").sortable({disabled:!0}),e(".postbox .hndle").css("cursor","pointer")});

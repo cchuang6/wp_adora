@@ -1,0 +1,97 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+
+/* 
+GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+
+#home_sections {
+
+}
+#home_sections .iphone {
+  float: left;
+  height: 260px;
+  position: relative;
+  left: 14%;
+}
+#home_sections .galaxy {
+  float: right; 
+  height: 260px;
+  position: relative;
+  right: 15%;
+}
+#home_sections .features {
+  height: 300px; 
+  float: left;
+  position: relative;
+  top: -85px;
+  left: 8%;
+}
+#home_sections div h2 img{
+  height: 55px;
+}
+#home_sections div.home_section {
+	padding: 90px 0 0;
+	margin-bottom: -20px;
+}
+#home_sections div.home_section div {
+	text-align:center; font-weight: bold;
+}
+#home_sections #second_section {
+	background-color: #f4f4f4;
+	text-align:center;
+	margin: 0px 0px -20px;
+	font-weight: bold;
+}
+#home_sections #second_section div {
+	padding-top: 70px;
+}
+#home_sections #third_section {
+	background-color: #fff;
+	text-align:center;
+	font-weight: bold;
+	margin-bottom: -20px;
+}
+#home_sections #third_section div {
+	padding-top: 100px;
+}
+
+/* 
+DESKTOP STYLES
+-----------------
+Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
+@media only screen and (max-width: 768px) {
+#home_sections div h2 img {
+    height: 40px;
+}
+#home_sections .iphone {
+    float: none;
+    height: 150px;
+    margin-bottom: 20px;
+    position: static;
+}
+#home_sections .galaxy {
+    float: none;
+    height: 150px;
+    margin-bottom: 20px;
+    position: static;
+}
+#home_sections .features {
+    float: none;
+    height: 150px;
+    margin-bottom: 20px;
+    position: static;
+}
+.down_free {
+    width: 300px;
+}
+}

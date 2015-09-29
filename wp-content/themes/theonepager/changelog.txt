@@ -1,0 +1,87 @@
+*** The One Pager Changelog ***
+
+2013.12.27 - version 1.0.15
+ * Fix - Use of the more quicktag will now work when displaying full content on post archives
+   content.php
+
+2013.12.17 - version 1.0.14
+ * Tweak - WooCommerce 2.1 Compatibility
+    css/woocommerce.css
+
+2013.11.27 - version 1.0.13
+ * includes/js/third-party.js - Fix reponsive videos (fitvids).
+ * includes/theme-comments.php - Replaced ereg_replace with preg_replace.
+ * includes/theme-woocommerce.php - Fixed mini cart count.
+ * header.php - Fixed mini cart count.
+
+2013.08.05 - version 1.0.12
+ * index.php - Adds stripslashes and esc_html to Features title to avoid magic quotes issue.
+ * includes/theme-woocommerce.php - Makes WooCommerce style disabling 2.1 compatible.
+ * css/layout.css - Added option to remove footer logo.
+ * footer.php - Added option to remove footer logo.
+ * includes/theme-options.php - Added option to remove footer logo.
+
+2013.08.02 - version 1.0.11
+ * includes/theme-options.php - Updated theme documentation url.
+
+2013.07.10 - version 1.0.10
+ * css/layout.css - Fixed slider overflow issue.
+ * style.css - Fixed slider overflow issue.
+
+2013.06.26 - version 1.0.9
+ * style.css - Fixed font face path issues & fixed W3C compatibility issues.
+ * includes/featured-slider.php - Fixed slider title outputting A tags.
+ * css/layout.css - Fixed W3C compatibility issues.
+ * includes/theme-actions.php - Fixed W3C compatibility issues.
+ * header.php - Fixed W3C compatibility issues.
+
+2013.06.20 - version 1.0.8
+ * header.php - Replaced title with woo_title & added stripslashes to Header.
+ * includes/theme-actions.php - Fixed bug in woo_is_widget_in_sidebar() function.
+ * index.php - Added an option to control the number of "Features" columns.
+ * css/layout.css - Added an option to control the number of "Features" columns.
+ * includes/theme-options.php - Added an option to control the number of "Features" columns.
+ * includes/theme-woocommerce.php - Tweaked wooframework_loop_columns() to ensure that $cols always has a value.
+
+2013.05.09 - version 1.0.7
+ * includes/theme-js.php - Added localization to the mobile "Top Menu".
+ * includes/js/general.js - Added localization to the mobile "Top Menu".
+ * content.php - Localized "by" string.
+ * includes/theme-options.php - Removed "title" option from the Content menu.
+
+2013.04.25 - version 1.0.6
+ * includes/content-area.php - Better escaping of the contact message.
+
+2013.04.22 - version 1.0.5
+ * header.php - Shortcodes can now be used in the header
+ * includes/contact-area.php - Improved contact form to keep the content from the fields after a wrong validation & when an email is submitted, the page is loaded in the contact form location.
+ * single.php - Localized string 'by'.
+
+2013.04.08 - version 1.0.4
+ * style.css - Fixed WC product tabber.
+ * /css/woocommerce.css - Fixed product tabber. Product review styling when lightbox disabled.
+ * single.php - Fixed #wrapper div not closing correctly.
+ * /includes/featured-slider.php - Fixed videos not showing for slider without iMac frame.
+ * /includes/contact-area.php - Fixed default value for textarea.
+ * /includes/theme-actions.php - Changed default line-height for custom typography to 1.618em, as is theme default.
+ * /includes/js/general.js - Added '#wrapper' to localScroll function.
+
+
+2013.03.25 - version 1.0.3
+ * /css/woocommerce.css - Fixed tabs styling. Fixed quantity buttons styling.
+ * /includes/contact-area.php - Replaced 'placeholder' (not supported in IE) attribute with JS trickery.
+ * /includes/theme-options.php - Added typography options for homepage widgets.
+ * /includes/theme-actions.php - Output typography options for homepage widgets.
+ * /includes/featured-slider.php - Adjusted image size for full width slides. Add custom URL link to slide media.
+ * /includes/theme-woocommerce.php - Fixed pagination hook.
+
+2013.03.13 - version 1.0.2
+ * style.css - Adjusted header font-size for mobile.
+ * /css/woocommerce.css - Adjusted rating position for reviews.
+
+2013.03.08 - version 1.0.1
+ * style.css - Fixed testimonials image styling bug
+ 			 - Fixed Dojo tab styling
+
+2013.02.20 - version 1.0.0
+ * First release!

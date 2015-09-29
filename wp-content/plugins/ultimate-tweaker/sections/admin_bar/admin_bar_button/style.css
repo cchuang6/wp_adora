@@ -1,0 +1,21 @@
+#wpadminbar {
+  -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 400ms;
+          transition: transform 400ms;
+}
+.wpadminbar_show #wpadminbar {
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%);
+}
+#wpadminbar_hover {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 15px;
+  z-index: 99998
+/*background red*/
+}

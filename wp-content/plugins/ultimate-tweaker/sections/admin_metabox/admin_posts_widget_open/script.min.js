@@ -1,0 +1,1 @@
+jQuery(document).ready(function(o){jQuery(".postbox").filter(".closed").each(function(){var e=o(this),s=e.attr("id");"dashboard_browser_nag"!=s&&(e.removeClass("closed"),s&&o.isFunction(postboxes.pbshow)&&self.pbshow(s),o(document).trigger("postbox-toggled",e))})});

@@ -1,0 +1,1 @@
+!function(t){t(function(){t("#comments").find("a[href^=http]").each(function(){this.href.indexOf(location.hostname)>-1||t(this).attr("target","_blank")})})}(jQuery);

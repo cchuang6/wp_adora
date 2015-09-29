@@ -1,0 +1,1 @@
+!function(c){c(function(){c(document.body).on("click",".vc_element-icon",function(){var n=c(this),o=n.closest(".wpb_content_element, .wpb_content_holder"),t=o.find("> .vc_controls > .column_edit, > .vc_controls .vc_controls-cc > .vc_control-btn-edit");t.click()})})}(jQuery);
